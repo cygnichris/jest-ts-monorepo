@@ -3,6 +3,11 @@
 ```
 yarn install
 ```
+**Build PackageC**
+
+```
+yarn workspace @foo/packagec build
+```
 
 **Build Package B**
 

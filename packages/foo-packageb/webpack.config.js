@@ -44,6 +44,7 @@ module.exports = {
         use: [
           {
             loader: require.resolve('ts-loader'),
+            options: { configFile: "../tsconfig.build.json" }
           }
         ]
       }

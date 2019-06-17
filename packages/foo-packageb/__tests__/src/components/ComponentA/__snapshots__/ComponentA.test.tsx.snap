@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComponentA/> Snapshot renders 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      Hello World 
+    </div>
+  </div>
+</DocumentFragment>
+`;

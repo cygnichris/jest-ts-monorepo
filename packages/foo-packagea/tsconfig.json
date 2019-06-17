@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react",
+    "sourceMap": true,
+    "paths": {
+      "@asrc/*": [
+        "./foo-packagea/src/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../foo-packageb",
+    },
+  ]
+}

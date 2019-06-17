@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "paths": {
+      "@foo/*": [
+        "./*/src"
+      ]
+    }
+  }
+}

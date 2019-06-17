@@ -4,7 +4,7 @@
   "license": "",
   "private": true,
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/src/index.d.ts",
   "scripts": {
     "build": "webpack",
     "test": "jest",
@@ -25,6 +25,7 @@
     "webpack-cli": "^3.3.4"
   },
   "dependencies": {
+    "@foo/packagec": "*",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "ts-loader": "^6.0.2"

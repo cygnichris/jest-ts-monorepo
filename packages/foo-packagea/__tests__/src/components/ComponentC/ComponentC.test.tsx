@@ -4,11 +4,11 @@ import { render } from '@testing-library/react';
 
 describe('<ComponentC/> Snapshot', () => {
   it('renders', () => {
-    const { debug } = render(
+    const { asFragment } = render(
       <ComponentC />
     );
 
-    debug();
+    expect(asFragment()).toMatchSnapshot();
   })
 })
 

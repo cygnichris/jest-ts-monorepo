@@ -4,7 +4,12 @@ exports[`<ComponentA/> Snapshot renders 1`] = `
 <DocumentFragment>
   <div>
     <div>
-      Hello World 
+      <div>
+        Token One: One
+      </div>
+      <div>
+        Hello World
+      </div>
     </div>
   </div>
 </DocumentFragment>

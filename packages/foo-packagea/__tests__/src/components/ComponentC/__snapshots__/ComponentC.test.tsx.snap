@@ -1,13 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ComponentB/> Snapshot renders 1`] = `
+exports[`<ComponentC/> Snapshot renders 1`] = `
 <DocumentFragment>
   <div>
     <div>
-      Token One: One
-    </div>
-    <div>
-      Hello World
+      Hello World 
     </div>
   </div>
 </DocumentFragment>

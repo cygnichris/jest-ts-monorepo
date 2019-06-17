@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "module": "es2015",
+    "target": "es2015",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "composite": true,
+  },
+  "exclude": [
+    "./lib/**/*"
+  ]
+}

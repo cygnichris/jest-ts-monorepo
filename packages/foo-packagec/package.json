@@ -1,0 +1,12 @@
+{
+  "name": "@foo/packagec",
+  "version": "1.0.0",
+  "license": "",
+  "private": true,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  }
+}

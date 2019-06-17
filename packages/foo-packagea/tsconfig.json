@@ -12,7 +12,7 @@
   },
   "references": [
     {
-      "path": "../foo-packageb",
-    },
+      "path": "../foo-packageb"
+    }
   ]
 }

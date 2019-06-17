@@ -11,5 +11,10 @@
         "./foo-packageb/src/*"
       ]
     }
-  }
+  },
+  "references": [
+    {
+      "path": "../foo-packagec"
+    }
+  ]
 }
